@@ -1,0 +1,6 @@
+com\learning\crud\repository\ProductoRepository.class
+com\learning\crud\entity\Producto.class
+com\learning\crud\service\ProductoService.class
+com\learning\crud\BackendJpa.class
+com\learning\crud\dto\ProductoDto.class
+com\learning\crud\dto\Mensaje.class
