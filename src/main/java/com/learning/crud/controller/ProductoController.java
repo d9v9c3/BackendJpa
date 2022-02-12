@@ -31,6 +31,7 @@ public class ProductoController {
 
 	@GetMapping("/detail/{id}")
 	public ResponseEntity<Producto> getById(@PathVariable("id") int id) {
+		System.out.println("I finish my test");
 		if (!productoService.existsById(id))
 			return new ResponseEntity(new Mensaje("no existe"), HttpStatus.NOT_FOUND);
 		Producto producto = productoService.getOne(id).get();
