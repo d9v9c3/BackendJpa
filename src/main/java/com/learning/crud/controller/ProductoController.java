@@ -24,6 +24,7 @@ public class ProductoController {
 
 	@GetMapping("/lista")
 	public ResponseEntity<List<Producto>> list() {
+		System.out.println("test the branch on git");
 		List<Producto> list = productoService.list();
 		return new ResponseEntity(list, HttpStatus.OK);
 	}
